@@ -1,4 +1,16 @@
 /** Código hecho en clase */
-object wollok {
-	method howAreYou() = 'I am Wolloktastic!'
+object homero {
+	
+	//estado del objeto
+	var cantidadDonas = 0
+	
+	//método de efecto
+	method comprarDonas(){
+		cantidadDonas = cantidadDonas + 12	
+	}
+	
+	//método de consulta - el = devuelve
+	method cantidadDonas() = cantidadDonas
+	
+	
 }
